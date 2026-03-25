@@ -28,12 +28,10 @@ It provides all simulation code required to replicate the Monte Carlo experiment
 
 | File | Description |
 |------|-------------|
-| `HPC_estimation_error_simulation.R` | Main Monte Carlo simulation (runs on HPC cluster) |
+| `HPC_estimation_error_simulation.R` | Main Monte Carlo simulation (Section 4, runs on HPC cluster) |
 | `submit_estimation_error.sh` | PBS job submission script for HPC |
 | `estimation_error_figures.R` | Generates Figure 3: estimation error plots (3×3 grid) |
 | `sign_recovery_analysis.R` | Computes sign recovery probabilities (Figure 4) |
-| `estimation_error_recovery_plots.R` | Utility functions for plotting and classification metrics |
-| `run_analysis.R` | Master analysis script: loads results and runs all diagnostics |
 | `covariance_cholesky_heatmaps.R` | Generates Figure 1: Γ/v² and Ψ_q/v heatmaps |
 | `RtR_MA_bound_verification.R` | Generates Figure 3 (appendix): R'R vs Σ_{MA} comparison |
 
@@ -58,7 +56,6 @@ Download the `.RData` files and place them in a `Data` folder in your home direc
 
 ```bash
 mkdir -p ~/Data
-# Move downloaded files into ~/Data/
 mv ~/Downloads/l2ErrorTbl_*.RData ~/Data/
 ```
 
@@ -92,9 +89,6 @@ source("estimation_error_figures.R")
 
 # Figure 4: Sign recovery
 source("sign_recovery_analysis.R")
-
-# Full analysis (all diagnostics)
-source("run_analysis.R")
 ```
 
 ---
