@@ -1,13 +1,13 @@
 # ℓ₁-Regularized GLS
 
-[![arXiv](https://img.shields.io/badge/arXiv-2405.10719-b31b1b.svg)](https://arxiv.org/abs/2405.10719)
+[![DOI](https://img.shields.io/badge/DOI-10.1214%2F26--EJS2515-blue.svg)](https://doi.org/10.1214/26-EJS2515)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19211879.svg)](https://doi.org/10.5281/zenodo.19211879)
 
 This repository accompanies the research paper:
 
 > **ℓ₁-Regularized Generalized Least Squares**
-> *Kaveh Salehzadeh-Nobari & Alex Gibberd (2024)*
-> https://arxiv.org/abs/2405.10719
+> *Kaveh Salehzadeh-Nobari & Alex Gibberd (2026)*
+> https://doi.org/10.1214/26-EJS2515
 
 It provides all simulation code required to replicate the Monte Carlo experiments and figures in the paper.
 
